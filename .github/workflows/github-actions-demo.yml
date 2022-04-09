@@ -25,4 +25,5 @@ jobs:
         path: |
           build/bootloader/bootloader.bin
           build/partition_table/partition-table.bin
-          build/${{ github.event.repository.name }}.bin
+          build/ota_data_initial.bin
+          build/MK32.bin
